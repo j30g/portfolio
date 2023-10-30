@@ -1,0 +1,262 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/assets/icon.ico">
+    <title>My Portfolio | Jeo</title>
+</head>
+<body>
+
+    <!--main_container-->
+    <div class="main_container">
+
+        <div class="show_card">
+            <input type="checkbox" id="check_card" onclick="card_show()">
+
+            <label for="check_card">
+            <i class="fa-solid fa-angles-right"></i>
+            </label>
+        </div>
+
+        <div class="scroll_section">
+            <input type="checkbox" id="nav_bar" onclick="bar_check()">
+            <a><label for="nav_bar"><i class="bar fa-solid fa-bars"></i></label></a>
+            <ul>
+                <li><a href="#home" class="nav__links"><i class="fa-solid fa-house scrollActive"></i></a></li>
+                <li><a href="#about" class="nav__links"><i class="fa-solid fa-user"></i></a></li>
+                <li><a href="#resume" class="nav__links"><i class="fa-solid fa-envelope-open-text"></i></a></li>
+                <li><a href="#projects" class="nav__links"><i class="fa-solid fa-list-check"></i></a></li>
+                <li><a href="#contact" class="nav__links"><i class="fa-solid fa-inbox"></i></a> </li>
+            </ul>
+        </div>
+
+        <img src="assets/abstract.png" class="abstract">
+        
+        <!--self_card-->
+        <div class="self_card" id="hello">
+          <h1>JEO™ <a class="webDev">Web Designer<br>
+            & Developer</a></h1>
+          <img src="assets/me.png" class="me">
+            <h3 class="infos">aquiman.jeo@gmail.com
+                <br>Base in Sta Ana, Tagoloan</h3>
+
+            <div class="card_footer">
+            <h5 class="credits">©2023 Jeo. All right reserve</h5>
+
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="#"><i class="fa-sharp fa-regular fa-envelope"></i></a></li>
+            </ul>
+
+            <a href="#contact" class="hireMe"><i class="fa-solid fa-inbox"></i> Hire Me</a>
+            </div>
+        
+        <!--self_card-->
+        </div>
+        
+
+
+        <!--content-->
+        <div class="content ">
+
+            <!--home -->
+            <div class="home sections" id="home">
+            <h1 class="title">Unlimited <br><span>Ideas</span>
+                <img src="assets/trio.png">
+            </h1>
+            
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Molestiae quaerat porro magni vero perspiciatis labore illo, ea odit error atque.</p>
+            <hr>
+            
+            <div class="exp">
+
+            <div class="years_exp">
+            <h3>
+                <h1>+1</h1>
+                Years of <br> Experience
+            </h3>
+            </div>
+            
+            <div class="project_completed">
+            <h3>
+                <h1>+15</h1>
+                Project <br> Completed
+            </h3>
+            </div>
+
+            </div>
+
+            <!--home --> 
+            </div>
+            
+            <!-- about -->
+            <div class="about sections" id="about">
+
+                <a href="#" class="locator"><i class="fa-solid fa-user"></i> About</a>
+
+                <h1>Every great design begin with
+                    an even <span>better story</span></h1>
+                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis unde maxime at cupiditate, deserunt ipsa, possimus vitae dolorum odit eum voluptatibus optio sunt doloribus sint dolorem fugit eveniet dolor? Tempora blanditiis quos recusandae inventore dolorum qui nulla et nostrum rerum.</p>
+            <!-- about -->
+            </div>
+
+            <!-- resume -->
+            <div class="resume sections" id="resume">
+                <a href="#" class="locator"><i class="fa-solid fa-envelope-open-text"></i> Resume</a>
+
+                <h1>Education & <span>Experience</span></h1>
+                
+                <ul>
+                   
+                    <li>
+                        <h3 class="present">2023 - Present</h3>
+                        <h2>Designer & Developer <br><span>TBA</span></h2> 
+                        <h2>Bachelor of Science and Information Technology <br><span>TBA</span></h2>   
+                        <h2>3rd Year College <br><span>TBA</span></h2>
+                    </li>
+
+                    <li>
+                        <h3>2020 - 2022</h3>
+                        <h2>Started College <br><span>TBA</span></h2>
+                    </li>
+
+                    <li>
+                        <h3>2018 - 2020</h3>
+                        <h2>Graduated JH & SHS<br><span>TBA</span></h2>
+                    </li>
+
+                    <hr>
+                </ul>
+                
+               
+
+             <!-- resume -->
+            </div>
+
+            <!-- projects -->
+            <div class="projects sections" id="projects">
+                <a href="#" class="locator"><i class="fa-solid fa-list-check"></i> Projects</a>
+
+            <h1>Featured<span> Projects</span></h1>
+            
+            <div class="project-container">
+            <div class="project-control">
+                <img src="assets/project1.png" alt="">
+
+                <h4>Fully Responsive Web Layout Using Bootstrap</h4> 
+            </div>
+
+            <div class="project-control">
+                <img src="assets/project2.png" alt="">
+
+                <h4>Rock, Paper, Scissor Game(Responsive)</h4>
+            </div>
+             </div>
+
+             <div class="project-container">
+                <div class="project-control">
+                    <img src="assets/project3.png" alt="">
+    
+                    <h4>Animated Show Password Form</h4> 
+                </div>
+    
+                <div class="project-control">
+                    <img src="assets/project4.png" alt="">
+    
+                    <h4>Gimp Landing-page mockup(Responsive)</h4>
+                </div>
+                 </div>
+
+                 <div class="project-control">
+                    <img src="assets/project5.png" alt="">
+    
+                    <h4>Rakk Talan Landing Page</h4> 
+                </div>
+
+
+            <!-- projects -->    
+            </div>
+            
+
+             <!-- Contact -->
+             <div class="contact sections" id="contact">
+
+                <a href="#" class="locator"><i class="fa-solid fa-inbox"></i> Contact</a>
+
+                <h1>Let's Learn & Work<span> Together</span></h1>
+
+                <h4>aquiman.jeo@gmail.com</h4>
+                <h6>* Mark fields are required to fill</h6>
+
+                <form action="#">
+                    <div class="form_control">
+                        <div class="form_block">
+                        <label for="name">Full Name <span class="marked">*</span></label>
+                        <input type="text" id="name" placeholder="Your Full Name">
+                         </div>
+
+                        <div class="form_block">
+                        <label for="email">Your Email <span class="marked">*</span></label>
+                        <input type="text" id="email" placeholder="Your Full Email Address">
+                        </div>
+                    </div>
+
+                    <div class="form_control">
+                        <div class="form_block">
+                        <label for="phone">Phone <span class="optional">(Optional)</span></label>
+                        <input type="text" id="phone" placeholder="Your Phone Number">
+                        </div>
+
+                        <div class="form_block">
+                        <label for="subject">Subject <span class="marked">*</span></label>
+                        <select name="subject" id="subject">
+                            <option value="html">HTML</option>
+                            <option value="css">CSS</option>
+                            <option value="js">JS</option>
+                        </select>
+                        </div>
+                    </div>
+
+                    <!-- <div class="form_control">
+                        <label for="budget">Your Budget <span class="optional">(Optional)</span></label>
+                        <input type="text" id="budget" placeholder="A Range Budget For Your Project">
+                    </div> -->
+
+                    <div class="form_control">
+                        <label for="message">Message <span class="marked">*</span></label>
+                        <textarea name="" id="" cols="30" rows="1" placeholder="Write Your Message Here"></textarea>
+                        
+                    </div>
+
+                    <input type="file"> <br>
+
+                    <button name="submit" id="submit"><i class="fa-regular fa-paper-plane"></i> Submit Message</button>
+                </form>
+                
+            <!-- Contact -->
+            </div>
+             
+        <!--content-->
+        </div>
+        
+    
+    <!--main_container-->
+    </div>
+    
+
+
+    
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
